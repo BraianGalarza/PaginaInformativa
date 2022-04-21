@@ -443,6 +443,17 @@ input[type="submit"]{
 .container-proyectos{
     text-align: center;
     background-image: url(./../img/dark_wood.png);
+
+}
+
+.container-card-proyectos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 .proyectos-cards img{
@@ -455,33 +466,14 @@ input[type="submit"]{
 /* grid contenedor  */
 .grid-container-nosotros{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,auto);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 20px;
+    justify-items: center;
 }
 
-.grid-container-nosotros .header{
-    grid-column-start: 1;
-    grid-column-end: -1;
-    grid-area: "header";
-}
-
-.grid-container-nosotros .nosotros-titulo{
-    grid-column: span 2;
+.nosotros-footer{
     padding-top: 30px;
-    grid-area: "titulo";
-}
-
-.grid-container-nosotros .index-info{
-    grid-column: span 2;
-    padding-top: 30px;
-    background-image: url(./../img/dark_wood.png);
-}
-
-.grid-container-nosotros .nosotros-footer{
-    grid-column: span 2;
-    padding-top: 30px;
-    grid-area: "footer";
 }
 
 .container-nosotros{
@@ -489,6 +481,7 @@ input[type="submit"]{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
+    
 }
 .flex-nosotros-row{
     margin-top: 20px;

@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Icono de ejemplo para el sitio -->
     <link rel="shortcut icon" href="../assets/img/favicon.png">
+    <link href="./../assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
+    <!-- Script de bootstrap -->
+    <script src="./../assets/js/bootstrap.bundle.min.js"></script>
+
     <!-- Coloco el Logo y el Nav --> 
     <header>
         <div class="menu">
@@ -26,14 +31,13 @@
         </div>
     </header>
 
-    <!-- section de contacto --> 
+    <!-- section de contacto -->
     <section class="form-contacto">
         <div class="div-form-contacto">
             <h1 class="titulo-contacto">CONTACTO</h1>
         </div>
-
        
-        <!-- form de contacto -->  
+         <!--form de contacto -->
         <form action="" class="contacto">
 
             <label for="nombres">Nombres</label>
@@ -49,6 +53,10 @@
             <textarea name="mensaje" id="mensaje"></textarea>
             <input type="submit" value="Enviar">
         </form>
-    </section>
+        <div>
+            <label for="formFileLg" class="form-label">De ser necesario seleccione archivo</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file">
+          </div>
+    </section> 
 </body>
 </html>
