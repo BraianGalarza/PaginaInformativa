@@ -10,9 +10,14 @@
     <!-- Icono de ejemplo para el sitio -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
+    <!-- Script de bootstrap -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
     <!-- div contenedor para grid -->
     <div class="grid-container-index">
 
@@ -40,7 +45,8 @@
                 <h1 class="titulo animate__animated animate__bounceInDown"><strong>Nombre</strong></h1>
                 <br>
                 <br>
-                <h3 class="subtitulo animate__animated animate__bounceInDown">Telme caution dolor sit amet caadsaawd palsrte abusletes texto ejemplo</h3>
+                <h3 class="subtitulo animate__animated animate__bounceInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis consequatur aspernatur? Odit assumenda provident illo fugiat, suscipit qui possimus quod dolores ad esse ratione soluta delectus, incidunt magnam commodi.
+                </h3>
                 <br>
                 <a class="a_info" href="#Info">
                     <h3>Info</h3>
@@ -60,48 +66,49 @@
                     <h1>Info</h1>
                 </a>
                 <br>
-                <h2 class="subtitulo">Estos es un texto de ejemplo.Estos es un texto de ejemplo.Estos es un texto de
-                    ejemplo.</h2>
+                <h2 class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus sit animi itaque atque ducimus aliquam et error maiores maxime, assumenda exercitationem voluptatem architecto quidem reprehenderit, minus ratione necessitatibus nulla tenetur!.</h2>
                 <br>
                 <br>
             </section>
 
-            <div class="grid-info">
-                <div class="InfoBox">
-                    <img class="info-img" src="assets/img/llave.png" alt="llave electronica">
-                    <h3>LLAVE ELECTRONICA</h3>
-                    <br>
-                    <h4 class="texto">Esta es una llave electronica que se usa para...</h4>
-                    <br>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-
-                <div class="InfoBox">
-                    <img class="info-img" src="assets/img/placa.jpg" alt="placa">
-                    <br>
-                    <h3>Placa electronica</h3>
-                    <br>
-                    <h4 class="texto">Esta es una placa electronica que se usa para...</h4>
-                    <br>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/img/gato1.jpg" class="d-block w-100" alt="llave electronica">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gato 1</h5>
+                      <p>Este es un gato</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/img/gato2.jpg" class="d-block w-100" alt="placa electronica">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gato 2</h5>
+                      <p>Este es otro gato</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/gato3.jpg" class="d-block w-100" alt="seguridad electronica">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gato 3</h5>
+                      <p>Este es otro otro gato</p>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="InfoBox">
-                    <img class="info-img" src="assets/img/seguridad-electronica.jpg" alt="seguridad electronica">
-                    <br>
-                    <h3>Seguridad electronica</h3>
-                    <br>
-                    <h4 class="texto">La seguridad electronica es muy importante...</h4>
-                    <br>
-                </div>
-
-                <div class="InfoBox">
-                    <img class="info-img" src="assets/img/placa2.jpg" alt="placa2">
-                    <br>
-                    <h3>Placa electronica</h3>
-                    <br>
-                    <h4 class="texto">Esta es otra placa electronica que se usa para...</h4>
-                    <br>
-                </div>
-            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
             <br>
             <br>
         </div>
@@ -156,3 +163,40 @@
 </body>
 
 </html>
+
+<!-- <div class="grid-info">
+    <div class="InfoBox">
+        <img class="info-img" src="assets/img/llave.png" alt="llave electronica">
+        <h3>LLAVE ELECTRONICA</h3>
+        <br>
+        <h4 class="texto">Esta es una llave electronica que se usa para...</h4>
+        <br>
+    </div>
+
+    <div class="InfoBox">
+        <img class="info-img" src="assets/img/placa.jpg" alt="placa">
+        <br>
+        <h3>Placa electronica</h3>
+        <br>
+        <h4 class="texto">Esta es una placa electronica que se usa para...</h4>
+        <br>
+    </div>
+
+    <div class="InfoBox">
+        <img class="info-img" src="assets/img/seguridad-electronica.jpg" alt="seguridad electronica">
+        <br>
+        <h3>Seguridad electronica</h3>
+        <br>
+        <h4 class="texto">La seguridad electronica es muy importante...</h4>
+        <br>
+    </div>
+
+    <div class="InfoBox">
+        <img class="info-img" src="assets/img/placa2.jpg" alt="placa2">
+        <br>
+        <h3>Placa electronica</h3>
+        <br>
+        <h4 class="texto">Esta es otra placa electronica que se usa para...</h4>
+        <br>
+    </div>
+</div> -->

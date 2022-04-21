@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <!-- Icono de ejemplo para el sitio -->
     <link rel="shortcut icon" href="../assets/img/favicon.png">
+    <link href="./../assets/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
 
+    <!-- Script de bootstrap -->
+    <script src="./../assets/js/bootstrap.bundle.min.js"></script>
     <div class="grid-container-clientes">
 
         <div class="header">
-            <!-- Coloco el Logo y el Nav --> 
+            <!-- Coloco el Logo y el Nav -->
             <header>
                 <div class="menu">
                     <img class="logo" src="../assets/img/favicon.png" alt="">
@@ -32,68 +37,97 @@
         </div>
 
         <div class="grid-titulo">
-            <!-- Main de Clientes con una lista y texto complementario a la lista --> 
+            <!-- Main de Clientes con una lista y texto complementario a la lista -->
             <h1 class="titulo"><strong>CLIENTES</strong></h1>
         </div>
 
         <div class="flex-list">
-            <!-- Lista ordenada de clientes -->
-            <h3 class="subtitulo">Lista de Clientes</h3>
-            <ol>
-                <li>Cliente1</li>
-                <li>Cliente2</li>
-                <li>Cliente3</li>
-                <li>Cliente4</li>
-                <li>Cliente5</li>
-            </ol>
+            <div class="card mb-3">
+                <img src="./../assets/img/gato1.jpg" class="card-img-top" alt="gato1">
+                <div class="card-body">
+                  <h5 class="card-title">Cliente gatuno 1</h5>
+                  <p class="card-text">Este gato nos contrato para que le demos comida</p>
+                  <p class="card-text"><small class="text-muted">Nombre: Polo</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Cliente gatuno 2</h5>
+                  <p class="card-text">Este gato nos contrato porque lo dejaron abandonado</p>
+                  <p class="card-text"><small class="text-muted">Nombre: Miau</small></p>
+                </div>
+                <img src="./../assets/img/gato2.jpg" class="card-img-bottom" alt="gato2">
+              </div>
         </div>
 
-        <div class="flex-text">
-            <h4>Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario.Texto complementario</h4>
+        <div class="flex-list">
+            <div class="card mb-3">
+                <img src="./../assets/img/gato1.jpg" class="card-img-top" alt="Gato1">
+                <div class="card-body">
+                  <h5 class="card-title">Cliente gatuno 3</h5>
+                  <p class="card-text">Este gato nos contrato para salvar a su amigo gatuno</p>
+                  <p class="card-text"><small class="text-muted">Nombre: Michi</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Cliente gatuno 4</h5>
+                  <p class="card-text">Este gato nos contrato porque lo mordio un perro</p>
+                  <p class="card-text"><small class="text-muted">Nombre: Mordelon</small></p>
+                </div>
+                <img src="./../assets/img/gato2.jpg" class="card-img-bottom" alt="gato2">
+              </div>    
         </div>
 
         <div class="footer">
             <!-- footer -->
             <footer>
                 <div class="container-footer">
-                        <div class="footer-column1">
-                            <h1>Mas Informacion</h1>
-                            <p>Este es un texto que contiene mas informacion sobre la empresa</p>
+                    <div class="footer-column1">
+                        <h1>Mas Informacion</h1>
+                        <p>Este es un texto que contiene mas informacion sobre la empresa</p>
+                    </div>
+                    <div class="footer-column2">
+                        <h1>Redes Sociales</h1>
+                        <div class="footer-row">
+                            <a href="https://www.facebook.com/" target="blank"><img src="./../assets/img/Icon-f.png"
+                                    alt=""></a>
+                            <a href="https://www.facebook.com/" target="blank"><label for="">Siguendos en
+                                    Facebook</label></a>
                         </div>
-                        <div class="footer-column2">
-                            <h1>Redes Sociales</h1>
-                            <div class="footer-row">
-                                <a href="https://www.facebook.com/" target="blank"><img src="./../assets/img/Icon-f.png" alt=""></a>
-                                <a href="https://www.facebook.com/" target="blank"><label for="">Siguendos en Facebook</label></a>
-                            </div>
-                            <div class="footer-row">
-                                <a href="https://www.Twitter.com/" target="blank"><img src="./../assets/img/Icon-t.png" alt=""></a>
-                                <a href="https://www.Twitter.com/" target="blank"><label for="">Siguendos en Twitter</label></a>
-                            </div>
-                            <div class="footer-row">
-                                <a href="https://www.Instagram.com/" target="blank"><img src="./../assets/img/Icon-i.png" alt=""></a>
-                                <a href="https://www.Instagram.com/" target="blank"><label for="">Siguendos en Instagram</label></a>
-                            </div>   
+                        <div class="footer-row">
+                            <a href="https://www.Twitter.com/" target="blank"><img src="./../assets/img/Icon-t.png"
+                                    alt=""></a>
+                            <a href="https://www.Twitter.com/" target="blank"><label for="">Siguendos en
+                                    Twitter</label></a>
                         </div>
-                        <div class="footer-column3">
-                            <h1>Informacion de Contacto</h1>
-                            <div class="footer-row-2">
-                                <img src="./../assets/img/Icon-casa.png" alt="">
-                                <label for="">Ubicación</label></a>
-                            </div>
-                            <div class="footer-row-2">
-                                <img src="./../assets/img/Icon-telefono.png" alt="">
-                                <label for="">Telefono</label>
-                            </div>
-                            <div class="footer-row-2">
-                                <img src="./../assets/img/Icon-mail.png" alt="">
-                                <label for="">Mail</label>
-                            </div>
+                        <div class="footer-row">
+                            <a href="https://www.Instagram.com/" target="blank"><img src="./../assets/img/Icon-i.png"
+                                    alt=""></a>
+                            <a href="https://www.Instagram.com/" target="blank"><label for="">Siguendos en
+                                    Instagram</label></a>
                         </div>
+                    </div>
+                    <div class="footer-column3">
+                        <h1>Informacion de Contacto</h1>
+                        <div class="footer-row-2">
+                            <img src="./../assets/img/Icon-casa.png" alt="">
+                            <label for="">Ubicación</label></a>
+                        </div>
+                        <div class="footer-row-2">
+                            <img src="./../assets/img/Icon-telefono.png" alt="">
+                            <label for="">Telefono</label>
+                        </div>
+                        <div class="footer-row-2">
+                            <img src="./../assets/img/Icon-mail.png" alt="">
+                            <label for="">Mail</label>
+                        </div>
+                    </div>
 
                 </div>
             </footer>
         </div>
     </div>
 </body>
+
 </html>
