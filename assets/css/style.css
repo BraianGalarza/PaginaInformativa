@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Variables */
 /* General */
 * {
   padding: 0;
@@ -16,14 +17,34 @@ body {
   background-image: url(./../img/wood_1.png);
   margin: 0; }
 
-.titulo {
+.titulo--info {
+  color: #b63838;
   text-align: center;
-  color: azure;
+  font-weight: bold; }
+
+.titulo--clientes {
+  color: #83c2ec;
+  text-align: center;
+  font-weight: bold; }
+
+.titulo--contacto {
+  color: #fff;
+  text-align: center;
+  font-weight: bold; }
+
+.titulo--proyectos {
+  color: #79e9cd;
+  text-align: center;
+  font-weight: bold; }
+
+.titulo--nosotros {
+  color: #dbcd4a;
+  text-align: center;
   font-weight: bold; }
 
 .subtitulo {
-  text-align: center;
   color: azure;
+  text-align: center;
   font-weight: bold; }
 
 .grid-container {
@@ -138,32 +159,21 @@ footer {
     grid-column-start: 1;
     grid-column-end: -1;
     grid-area: "header"; }
-  .grid-container-index .index-titulo {
+  .grid-container-index .index-titulo, .grid-container-index .index-info, .grid-container-index .index-footer {
     grid-column: span 2;
     padding-top: 30px;
     grid-area: "titulo"; }
   .grid-container-index .index-info {
-    grid-column: span 2;
-    padding-top: 30px;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
-    transform: transition 3s; }
+    transform: transition 3s;
+    grid-area: "info"; }
     .grid-container-index .index-info .subtitulo:hover {
       transform: rotate(2deg); }
   .grid-container-index .index-footer {
-    grid-column: span 2;
-    padding-top: 30px;
     grid-area: "footer"; }
 
 /* Botones de hipervinculos dentro del index */
-.a_info {
-  text-decoration: none;
-  color: #d2dfdf;
-  font-weight: bold;
-  width: auto;
-  text-align: center;
-  padding: 5px; }
-
-.a_contacto {
+.a_info, .a_contacto {
   text-decoration: none;
   color: #d2dfdf;
   font-weight: bold;
@@ -242,7 +252,7 @@ footer {
 .div-form-contacto {
   border-radius: 1px solid grey; }
 
-.titulo-contacto {
+.titulo--contacto {
   width: 100%;
   padding: 10px;
   background-color: #3a3126;
