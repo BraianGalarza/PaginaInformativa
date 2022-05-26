@@ -213,21 +213,6 @@ footer {
   margin-top: 7px;
   margin-left: 7px; }
 
-/*
-.flex-box-info{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:stretch;
-}
-
-.flex-box-contacto{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    
-} */
 /* CONTACTO */
 .form-contacto {
   background-color: #fff;
@@ -317,38 +302,6 @@ input[type="submit"] {
     align-items: center;
     justify-content: center; }
 
-/* .clientes{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(./../img/dark_wood.png);
-}
-
-.clientes-lista{
-    float: left;
-    padding-left: 100px;
-}
-
-.clientes-lista .subtitulo{
-    width: 300px;
-    height: auto;
-    border: 3px solid grey;
-}
-
-.clientes-lista ol li{
-    padding: 20px;
-    color: #C7C7C7;
-}
-
-.flex-clientes{
-    display: flex;
-    justify-content: space-around;
-}
-
-.clientes-texto{
-    max-width: 700px;
-    color: #C7C7C7;
-  
-} */
 /* PROYECTOS */
 .container-proyectos {
   text-align: center;
@@ -398,18 +351,6 @@ input[type="submit"] {
       width: 36px;
       height: 36px; }
 
-/* .flex-nosotros{
-    display: flex;
-    flex-direction: row;
-    padding-top: 30px;
-    justify-content: space-around;
-    background-image: url(./../img/dark_wood.png);
-}
-
-
-
-
-} */
 @media screen and (max-width: 768px) {
   .grid-info {
     grid-template-columns: none; } }
